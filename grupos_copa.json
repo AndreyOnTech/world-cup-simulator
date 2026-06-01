@@ -1,0 +1,314 @@
+{
+    "A": [
+        {
+            "country": "Mexico",
+            "code": "mx",
+            "rank": 15,
+            "points": 1684.13
+        },
+        {
+            "country": "South Korea",
+            "code": "kr",
+            "rank": 25,
+            "points": 1589.65
+        },
+        {
+            "country": "South Africa",
+            "code": "za",
+            "rank": 60,
+            "points": 1429.73
+        },
+        {
+            "country": "Europe Playoff D",
+            "code": "eu",
+            "rank": null,
+            "points": null
+        }
+    ],
+    "B": [
+        {
+            "country": "Canada",
+            "code": "ca",
+            "rank": 30,
+            "points": 1556.48
+        },
+        {
+            "country": "Switzerland",
+            "code": "ch",
+            "rank": 19,
+            "points": 1649.40
+        },
+        {
+            "country": "Qatar",
+            "code": "qa",
+            "rank": 55,
+            "points": 1420.00
+        },
+        {
+            "country": "Europe Playoff A",
+            "code": "eu",
+            "rank": null,
+            "points": null
+        }
+    ],
+    "C": [
+        {
+            "country": "Brazil",
+            "code": "br",
+            "rank": 6,
+            "points": 1761.16
+        },
+        {
+            "country": "Morocco",
+            "code": "ma",
+            "rank": 8,
+            "points": 1755.87
+        },
+        {
+            "country": "Scotland",
+            "code": "gb-sct",
+            "rank": 43,
+            "points": 1498.35
+        },
+        {
+            "country": "Haiti",
+            "code": "ht",
+            "rank": 83,
+            "points": 1300.00
+        }
+    ],
+    "D": [
+        {
+            "country": "United States",
+            "code": "us",
+            "rank": 16,
+            "points": 1673.13
+        },
+        {
+            "country": "Australia",
+            "code": "au",
+            "rank": 27,
+            "points": 1580.67
+        },
+        {
+            "country": "Paraguay",
+            "code": "py",
+            "rank": 40,
+            "points": 1503.50
+        },
+        {
+            "country": "Europe Playoff C",
+            "code": "eu",
+            "rank": null,
+            "points": null
+        }
+    ],
+    "E": [
+        {
+            "country": "Germany",
+            "code": "de",
+            "rank": 10,
+            "points": 1730.37
+        },
+        {
+            "country": "Ecuador",
+            "code": "ec",
+            "rank": 23,
+            "points": 1594.78
+        },
+        {
+            "country": "Ivory Coast",
+            "code": "ci",
+            "rank": 34,
+            "points": 1532.98
+        },
+        {
+            "country": "Curacao",
+            "code": "cw",
+            "rank": 82,
+            "points": 1305.00
+        }
+    ],
+    "F": [
+        {
+            "country": "Netherlands",
+            "code": "nl",
+            "rank": 7,
+            "points": 1757.87
+        },
+        {
+            "country": "Japan",
+            "code": "jp",
+            "rank": 18,
+            "points": 1660.43
+        },
+        {
+            "country": "Tunisia",
+            "code": "tn",
+            "rank": 44,
+            "points": 1483.05
+        },
+        {
+            "country": "Europe Playoff B",
+            "code": "eu",
+            "rank": null,
+            "points": null
+        }
+    ],
+    "G": [
+        {
+            "country": "Belgium",
+            "code": "be",
+            "rank": 9,
+            "points": 1734.71
+        },
+        {
+            "country": "Iran",
+            "code": "ir",
+            "rank": 21,
+            "points": 1615.30
+        },
+        {
+            "country": "Egypt",
+            "code": "eg",
+            "rank": 29,
+            "points": 1563.24
+        },
+        {
+            "country": "New Zealand",
+            "code": "nz",
+            "rank": 85,
+            "points": 1290.00
+        }
+    ],
+    "H": [
+        {
+            "country": "Spain",
+            "code": "es",
+            "rank": 2,
+            "points": 1876.40
+        },
+        {
+            "country": "Uruguay",
+            "code": "uy",
+            "rank": 17,
+            "points": 1673.07
+        },
+        {
+            "country": "Saudi Arabia",
+            "code": "sa",
+            "rank": 61,
+            "points": 1395.00
+        },
+        {
+            "country": "Cape Verde",
+            "code": "cv",
+            "rank": 69,
+            "points": 1360.00
+        }
+    ],
+    "I": [
+        {
+            "country": "France",
+            "code": "fr",
+            "rank": 1,
+            "points": 1877.32
+        },
+        {
+            "country": "Senegal",
+            "code": "sn",
+            "rank": 14,
+            "points": 1688.99
+        },
+        {
+            "country": "Norway",
+            "code": "no",
+            "rank": 31,
+            "points": 1550.94
+        },
+        {
+            "country": "Intercontinental Playoff 2",
+            "code": "world",
+            "rank": null,
+            "points": null
+        }
+    ],
+    "J": [
+        {
+            "country": "Argentina",
+            "code": "ar",
+            "rank": 3,
+            "points": 1874.81
+        },
+        {
+            "country": "Austria",
+            "code": "at",
+            "rank": 24,
+            "points": 1593.45
+        },
+        {
+            "country": "Algeria",
+            "code": "dz",
+            "rank": 28,
+            "points": 1564.26
+        },
+        {
+            "country": "Jordan",
+            "code": "jo",
+            "rank": 63,
+            "points": 1385.00
+        }
+    ],
+    "K": [
+        {
+            "country": "Portugal",
+            "code": "pt",
+            "rank": 5,
+            "points": 1763.83
+        },
+        {
+            "country": "Colombia",
+            "code": "co",
+            "rank": 13,
+            "points": 1693.09
+        },
+        {
+            "country": "Uzbekistan",
+            "code": "uz",
+            "rank": 50,
+            "points": 1450.00
+        },
+        {
+            "country": "Intercontinental Playoff 1",
+            "code": "world",
+            "rank": null,
+            "points": null
+        }
+    ],
+    "L": [
+        {
+            "country": "England",
+            "code": "gb-eng",
+            "rank": 4,
+            "points": 1825.97
+        },
+        {
+            "country": "Croatia",
+            "code": "hr",
+            "rank": 11,
+            "points": 1717.07
+        },
+        {
+            "country": "Panama",
+            "code": "pa",
+            "rank": 33,
+            "points": 1540.64
+        },
+        {
+            "country": "Ghana",
+            "code": "gh",
+            "rank": 74,
+            "points": 1340.00
+        }
+    ]
+}
