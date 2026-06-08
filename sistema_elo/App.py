@@ -2,9 +2,30 @@ import json
 import os
 import streamlit as st
 from pathlib import Path
+from PIL import Image, ImageOps
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 resultado_file = BASE_DIR / "sistema_elo/resultado.json"
+FLAG_WIDTH = 100
+FLAG_HEIGHT = 60
+
+
+def load_flag_image(flag_code):
+    flag_path = BASE_DIR / "bandeira" / f"{flag_code}.png"
+
+    if not flag_path.exists():
+        return None
+
+    with Image.open(flag_path) as flag_image:
+        flag_image = ImageOps.contain(flag_image.convert("RGBA"), (FLAG_WIDTH, FLAG_HEIGHT))
+        canvas = Image.new("RGBA", (FLAG_WIDTH, FLAG_HEIGHT), (255, 255, 255, 0))
+        offset = (
+            (FLAG_WIDTH - flag_image.width) // 2,
+            (FLAG_HEIGHT - flag_image.height) // 2,
+        )
+        canvas.paste(flag_image, offset, flag_image)
+
+    return canvas
 
 with open(resultado_file, "r", encoding="utf-8") as f:
     data = json.load(f)
@@ -37,9 +58,10 @@ for i in range(0, len(times), 4):
             with st.container(border=True):
 
                 flag_file = f"bandeira/{stats['FlagCode']}.png"
+                flag_image = load_flag_image(stats["FlagCode"])
 
-                if os.path.exists(flag_file):
-                    st.image(flag_file, width=100)
+                if os.path.exists(flag_file) and flag_image is not None:
+                    st.image(flag_image, width=FLAG_WIDTH)
 
                 st.markdown(
                     f"### {country}"

@@ -6,6 +6,25 @@ Este documento explica a logica do motor de simulacao usado no projeto principal
 
 Para a visao geral do repositorio, instalacao e comandos de uso, veja [../README.md](../README.md).
 
+## Grupos / Groups
+
+Passe o mouse sobre cada bandeira para ver o nome da selecao, se o renderizador suportar `title`. Hover over each flag to see the team name when the renderer supports `title`.
+
+| Grupo | Time 1 | Time 2 | Time 3 | Time 4 |
+| --- | --- | --- | --- | --- |
+| A | <img src="../bandeira/mx.png" alt="Mexico" title="Mexico" width="22" /> | <img src="../bandeira/za.png" alt="South Africa" title="South Africa" width="22" /> | <img src="../bandeira/kr.png" alt="Korea Republic" title="Korea Republic" width="22" /> | <img src="../bandeira/cz.png" alt="Czechia" title="Czechia" width="22" /> |
+| B | <img src="../bandeira/ca.png" alt="Canada" title="Canada" width="22" /> | <img src="../bandeira/ba.png" alt="Bosnia and Herzegovina" title="Bosnia and Herzegovina" width="22" /> | <img src="../bandeira/qa.png" alt="Qatar" title="Qatar" width="22" /> | <img src="../bandeira/ch.png" alt="Switzerland" title="Switzerland" width="22" /> |
+| C | <img src="../bandeira/br.png" alt="Brazil" title="Brazil" width="22" /> | <img src="../bandeira/ma.png" alt="Morocco" title="Morocco" width="22" /> | <img src="../bandeira/ht.png" alt="Haiti" title="Haiti" width="22" /> | <img src="../bandeira/gb-sct.png" alt="Scotland" title="Scotland" width="22" /> |
+| D | <img src="../bandeira/us.png" alt="USA" title="USA" width="22" /> | <img src="../bandeira/py.png" alt="Paraguay" title="Paraguay" width="22" /> | <img src="../bandeira/au.png" alt="Australia" title="Australia" width="22" /> | <img src="../bandeira/tr.png" alt="Türkiye" title="Türkiye" width="22" /> |
+| E | <img src="../bandeira/de.png" alt="Germany" title="Germany" width="22" /> | <img src="../bandeira/cw.png" alt="Curaçao" title="Curaçao" width="22" /> | <img src="../bandeira/ci.png" alt="Côte d'Ivoire" title="Côte d'Ivoire" width="22" /> | <img src="../bandeira/ec.png" alt="Ecuador" title="Ecuador" width="22" /> |
+| F | <img src="../bandeira/nl.png" alt="Netherlands" title="Netherlands" width="22" /> | <img src="../bandeira/jp.png" alt="Japan" title="Japan" width="22" /> | <img src="../bandeira/se.png" alt="Sweden" title="Sweden" width="22" /> | <img src="../bandeira/tn.png" alt="Tunisia" title="Tunisia" width="22" /> |
+| G | <img src="../bandeira/be.png" alt="Belgium" title="Belgium" width="22" /> | <img src="../bandeira/eg.png" alt="Egypt" title="Egypt" width="22" /> | <img src="../bandeira/ir.png" alt="IR Iran" title="IR Iran" width="22" /> | <img src="../bandeira/nz.png" alt="New Zealand" title="New Zealand" width="22" /> |
+| H | <img src="../bandeira/es.png" alt="Spain" title="Spain" width="22" /> | <img src="../bandeira/cv.png" alt="Cabo Verde" title="Cabo Verde" width="22" /> | <img src="../bandeira/sa.png" alt="Saudi Arabia" title="Saudi Arabia" width="22" /> | <img src="../bandeira/uy.png" alt="Uruguay" title="Uruguay" width="22" /> |
+| I | <img src="../bandeira/fr.png" alt="France" title="France" width="22" /> | <img src="../bandeira/sn.png" alt="Senegal" title="Senegal" width="22" /> | <img src="../bandeira/iq.png" alt="Iraq" title="Iraq" width="22" /> | <img src="../bandeira/no.png" alt="Norway" title="Norway" width="22" /> |
+| J | <img src="../bandeira/ar.png" alt="Argentina" title="Argentina" width="22" /> | <img src="../bandeira/dz.png" alt="Algeria" title="Algeria" width="22" /> | <img src="../bandeira/at.png" alt="Austria" title="Austria" width="22" /> | <img src="../bandeira/jo.png" alt="Jordan" title="Jordan" width="22" /> |
+| K | <img src="../bandeira/pt.png" alt="Portugal" title="Portugal" width="22" /> | <img src="../bandeira/cd.png" alt="Congo DR" title="Congo DR" width="22" /> | <img src="../bandeira/uz.png" alt="Uzbekistan" title="Uzbekistan" width="22" /> | <img src="../bandeira/co.png" alt="Colombia" title="Colombia" width="22" /> |
+| L | <img src="../bandeira/gb-eng.png" alt="England" title="England" width="22" /> | <img src="../bandeira/hr.png" alt="Croatia" title="Croatia" width="22" /> | <img src="../bandeira/gh.png" alt="Ghana" title="Ghana" width="22" /> | <img src="../bandeira/pa.png" alt="Panama" title="Panama" width="22" /> |
+
 ## PT-BR
 
 ### O que esta nesta pasta
@@ -73,7 +92,7 @@ Os placares sao sorteados a partir de conjuntos fixos de resultados provaveis, p
 
 ### Fluxo de execucao
 
-1. `Simulator.py` carrega `../teams.json`.
+1. `Simulator.py` carrega `../teams.json`, que agora contem apenas as 48 selecoes definidas nos grupos atuais.
 2. Os grupos sao montados manualmente no codigo.
 3. Cada grupo executa suas partidas e retorna a classificacao.
 4. O simulador monta os classificados para o mata-mata.
@@ -163,7 +182,7 @@ Scorelines are sampled from fixed sets of likely outcomes, such as `1x0`, `2x1`,
 
 ### Execution flow
 
-1. `Simulator.py` loads `../teams.json`.
+1. `Simulator.py` loads `../teams.json`, which now contains only the 48 teams defined in the current groups.
 2. Groups are manually defined in code.
 3. Each group runs its schedule and returns the standings.
 4. The simulator builds the knockout field.

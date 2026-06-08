@@ -66,12 +66,6 @@
             "Rank": 46,
             "Points": 1478.35
         },
-        "Côte d'Ivoire": {
-            "IdCountry": "CIV",
-            "FlagCode": "ci",
-            "Rank": 34,
-            "Points": 1532.98
-        },
         "Croatia": {
             "IdCountry": "CRO",
             "FlagCode": "hr",
@@ -90,11 +84,11 @@
             "Rank": 41,
             "Points": 1503.04
         },
-        "Denmark": {
-            "IdCountry": "DEN",
-            "FlagCode": "dk",
-            "Rank": 20,
-            "Points": 1620.81
+        "Côte d'Ivoire": {
+            "IdCountry": "CIV",
+            "FlagCode": "ci",
+            "Rank": 34,
+            "Points": 1532.98
         },
         "Ecuador": {
             "IdCountry": "ECU",
@@ -137,12 +131,6 @@
             "FlagCode": "ht",
             "Rank": 83,
             "Points": 1291.71
-        },
-        "Hungary": {
-            "IdCountry": "HUN",
-            "FlagCode": "hu",
-            "Rank": 42,
-            "Points": 1500.58
         },
         "IR Iran": {
             "IdCountry": "IRN",
@@ -216,12 +204,6 @@
             "Rank": 40,
             "Points": 1503.5
         },
-        "Poland": {
-            "IdCountry": "POL",
-            "FlagCode": "pl",
-            "Rank": 35,
-            "Points": 1525.59
-        },
         "Portugal": {
             "IdCountry": "POR",
             "FlagCode": "pt",
@@ -251,12 +233,6 @@
             "FlagCode": "sn",
             "Rank": 14,
             "Points": 1686.41
-        },
-        "Slovakia": {
-            "IdCountry": "SVK",
-            "FlagCode": "sk",
-            "Rank": 48,
-            "Points": 1475.27
         },
         "South Africa": {
             "IdCountry": "RSA",
@@ -294,11 +270,11 @@
             "Rank": 22,
             "Points": 1601.98
         },
-        "Ukraine": {
-            "IdCountry": "UKR",
-            "FlagCode": "ua",
-            "Rank": 32,
-            "Points": 1549.28
+        "USA": {
+            "IdCountry": "USA",
+            "FlagCode": "us",
+            "Rank": 16,
+            "Points": 1675.7
         },
         "Uruguay": {
             "IdCountry": "URU",
@@ -306,23 +282,11 @@
             "Rank": 17,
             "Points": 1673.06
         },
-        "USA": {
-            "IdCountry": "USA",
-            "FlagCode": "us",
-            "Rank": 16,
-            "Points": 1675.7
-        },
         "Uzbekistan": {
             "IdCountry": "UZB",
             "FlagCode": "uz",
             "Rank": 50,
             "Points": 1461.2
-        },
-        "Venezuela": {
-            "IdCountry": "VEN",
-            "FlagCode": "ve",
-            "Rank": 49,
-            "Points": 1468.04
         }
     }
 }

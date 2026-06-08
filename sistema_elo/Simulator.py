@@ -30,7 +30,7 @@ groups = [
 def addClassification(fase, team):
     dados[team][fase] = dados[team].get(fase, 0) + 1
 
-for i in range(100000):
+for i in range(1):
 
     primeiros = []
     segundos = []
