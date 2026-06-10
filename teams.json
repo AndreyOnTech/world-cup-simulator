@@ -3,7 +3,7 @@
         "Algeria": {
             "IdCountry": "ALG",
             "FlagCode": "dz",
-            "Rank": 29,
+            "Rank": 28,
             "Points": 1564.26
         },
         "Argentina": {
@@ -16,13 +16,13 @@
             "IdCountry": "AUS",
             "FlagCode": "au",
             "Rank": 27,
-            "Points": 1578.66
+            "Points": 1580.67
         },
         "Austria": {
             "IdCountry": "AUT",
             "FlagCode": "at",
-            "Rank": 23,
-            "Points": 1597.4
+            "Rank": 24,
+            "Points": 1593.45
         },
         "Belgium": {
             "IdCountry": "BEL",
@@ -34,31 +34,31 @@
             "IdCountry": "BIH",
             "FlagCode": "ba",
             "Rank": 65,
-            "Points": 1385.77
+            "Points": 1385.84
         },
         "Brazil": {
             "IdCountry": "BRA",
             "FlagCode": "br",
             "Rank": 6,
-            "Points": 1762.66
+            "Points": 1761.16
         },
         "Cabo Verde": {
             "IdCountry": "CPV",
             "FlagCode": "cv",
-            "Rank": 68,
-            "Points": 1369.29
+            "Rank": 69,
+            "Points": 1366.13
         },
         "Canada": {
             "IdCountry": "CAN",
             "FlagCode": "ca",
             "Rank": 30,
-            "Points": 1560.62
+            "Points": 1556.48
         },
         "Colombia": {
             "IdCountry": "COL",
             "FlagCode": "co",
             "Rank": 13,
-            "Points": 1695.99
+            "Points": 1693.09
         },
         "Congo DR": {
             "IdCountry": "COD",
@@ -76,13 +76,13 @@
             "IdCountry": "CUW",
             "FlagCode": "cw",
             "Rank": 82,
-            "Points": 1293.08
+            "Points": 1294.65
         },
         "Czechia": {
             "IdCountry": "CZE",
             "FlagCode": "cz",
             "Rank": 41,
-            "Points": 1503.04
+            "Points": 1501.38
         },
         "Côte d'Ivoire": {
             "IdCountry": "CIV",
@@ -93,14 +93,14 @@
         "Ecuador": {
             "IdCountry": "ECU",
             "FlagCode": "ec",
-            "Rank": 24,
-            "Points": 1596.48
+            "Rank": 23,
+            "Points": 1594.78
         },
         "Egypt": {
             "IdCountry": "EGY",
             "FlagCode": "eg",
-            "Rank": 28,
-            "Points": 1565.56
+            "Rank": 29,
+            "Points": 1563.24
         },
         "England": {
             "IdCountry": "ENG",
@@ -118,13 +118,13 @@
             "IdCountry": "GER",
             "FlagCode": "de",
             "Rank": 10,
-            "Points": 1731.3
+            "Points": 1730.37
         },
         "Ghana": {
             "IdCountry": "GHA",
             "FlagCode": "gh",
             "Rank": 74,
-            "Points": 1345.23
+            "Points": 1346.31
         },
         "Haiti": {
             "IdCountry": "HAI",
@@ -136,43 +136,43 @@
             "IdCountry": "IRN",
             "FlagCode": "ir",
             "Rank": 21,
-            "Points": 1616.04
+            "Points": 1615.3
         },
         "Iraq": {
             "IdCountry": "IRQ",
             "FlagCode": "iq",
             "Rank": 57,
-            "Points": 1447.77
+            "Points": 1447.14
         },
         "Japan": {
             "IdCountry": "JPN",
             "FlagCode": "jp",
             "Rank": 18,
-            "Points": 1661.58
+            "Points": 1660.43
         },
         "Jordan": {
             "IdCountry": "JOR",
             "FlagCode": "jo",
             "Rank": 63,
-            "Points": 1390.09
+            "Points": 1391.45
         },
         "Korea Republic": {
             "IdCountry": "KOR",
             "FlagCode": "kr",
             "Rank": 25,
-            "Points": 1589.65
+            "Points": 1588.66
         },
         "Mexico": {
             "IdCountry": "MEX",
             "FlagCode": "mx",
             "Rank": 15,
-            "Points": 1684.13
+            "Points": 1681.03
         },
         "Morocco": {
             "IdCountry": "MAR",
             "FlagCode": "ma",
             "Rank": 8,
-            "Points": 1755.86
+            "Points": 1755.87
         },
         "Netherlands": {
             "IdCountry": "NED",
@@ -184,19 +184,19 @@
             "IdCountry": "NZL",
             "FlagCode": "nz",
             "Rank": 85,
-            "Points": 1281.56
+            "Points": 1281.57
         },
         "Norway": {
             "IdCountry": "NOR",
             "FlagCode": "no",
             "Rank": 31,
-            "Points": 1555.59
+            "Points": 1550.94
         },
         "Panama": {
             "IdCountry": "PAN",
             "FlagCode": "pa",
             "Rank": 33,
-            "Points": 1539.14
+            "Points": 1540.64
         },
         "Paraguay": {
             "IdCountry": "PAR",
@@ -214,79 +214,79 @@
             "IdCountry": "QAT",
             "FlagCode": "qa",
             "Rank": 55,
-            "Points": 1452.37
+            "Points": 1454.96
         },
         "Saudi Arabia": {
             "IdCountry": "KSA",
             "FlagCode": "sa",
             "Rank": 61,
-            "Points": 1419.72
+            "Points": 1421.43
         },
         "Scotland": {
             "IdCountry": "SCO",
             "FlagCode": "gb-sct",
             "Rank": 43,
-            "Points": 1499.92
+            "Points": 1498.35
         },
         "Senegal": {
             "IdCountry": "SEN",
             "FlagCode": "sn",
             "Rank": 14,
-            "Points": 1686.41
+            "Points": 1688.99
         },
         "South Africa": {
             "IdCountry": "RSA",
             "FlagCode": "za",
             "Rank": 60,
-            "Points": 1428.37
+            "Points": 1429.73
         },
         "Spain": {
             "IdCountry": "ESP",
             "FlagCode": "es",
             "Rank": 2,
-            "Points": 1876.39
+            "Points": 1876.4
         },
         "Sweden": {
             "IdCountry": "SWE",
             "FlagCode": "se",
             "Rank": 38,
-            "Points": 1510.11
+            "Points": 1514.77
         },
         "Switzerland": {
             "IdCountry": "SUI",
             "FlagCode": "ch",
             "Rank": 19,
-            "Points": 1650.75
+            "Points": 1649.4
         },
         "Tunisia": {
             "IdCountry": "TUN",
             "FlagCode": "tn",
-            "Rank": 45,
-            "Points": 1479.09
+            "Rank": 44,
+            "Points": 1483.05
         },
         "Türkiye": {
             "IdCountry": "TUR",
             "FlagCode": "tr",
             "Rank": 22,
-            "Points": 1601.98
+            "Points": 1599.04
         },
         "USA": {
             "IdCountry": "USA",
             "FlagCode": "us",
             "Rank": 16,
-            "Points": 1675.7
+            "Points": 1673.13
         },
         "Uruguay": {
             "IdCountry": "URU",
             "FlagCode": "uy",
             "Rank": 17,
-            "Points": 1673.06
+            "Points": 1673.07
         },
         "Uzbekistan": {
             "IdCountry": "UZB",
             "FlagCode": "uz",
             "Rank": 50,
-            "Points": 1461.2
+            "Points": 1465.34
         }
     }
 }

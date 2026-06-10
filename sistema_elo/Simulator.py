@@ -4,6 +4,8 @@ from Match import knockout_round
 import json
 from pathlib import Path
 
+total_de_simulacoes = 1
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 teams_file = BASE_DIR / "teams.json"
 
@@ -30,7 +32,7 @@ groups = [
 def addClassification(fase, team):
     dados[team][fase] = dados[team].get(fase, 0) + 1
 
-for i in range(1):
+for i in range(total_de_simulacoes):
 
     primeiros = []
     segundos = []
@@ -67,6 +69,9 @@ for i in range(1):
         melhores_terceiros
     )
 
+    for team in classificados:
+        dados[team.name]['classificado'] = dados[team.name].get('classificado', 0) + 1
+
     classificados16 = knockout_round(addClassification, '32', classificados)
     classificados8 = knockout_round(addClassification, '16', classificados16)
     classificados4 = knockout_round(addClassification, '8', classificados8)
@@ -74,8 +79,7 @@ for i in range(1):
     classificados1 = knockout_round(addClassification, '2', classificados2)
 
 
-    print(len(classificados1))
-    print(f'Campeão {classificados1[0].name}')
+    
     addClassification("1", classificados1[0].name)
 
 
