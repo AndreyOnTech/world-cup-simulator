@@ -1,5 +1,8 @@
 # World Cup Simulator
 
+Follow us on Youtube: https://youtu.be/jcFr0PJAeOU
+
+
 PT-BR | [English](#english)
 
 Simulador de Copa do Mundo baseado em ratings no estilo Elo e nos pontos do ranking masculino da FIFA.
