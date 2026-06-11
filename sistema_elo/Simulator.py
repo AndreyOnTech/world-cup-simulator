@@ -82,6 +82,8 @@ for i in range(total_de_simulacoes):
     
     addClassification("1", classificados1[0].name)
 
+    print(f'Campeão: {classificados1[0].name}')
+
 
 resultado_file = BASE_DIR / "sistema_elo/resultado.json"
 with open(resultado_file, "w", encoding="utf-8") as f:
