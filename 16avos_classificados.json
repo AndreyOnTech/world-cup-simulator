@@ -1,0 +1,60 @@
+{
+  "groups": {
+    "A": [
+      { "position": 1, "team": "Mexico" },
+      { "position": 2, "team": "South Africa" }
+    ],
+    "B": [
+      { "position": 1, "team": "Switzerland" },
+      { "position": 2, "team": "Canada" },
+      { "position": 3, "team": "Bosnia and Herzegovina" }
+    ],
+    "C": [
+      { "position": 1, "team": "Brazil" },
+      { "position": 2, "team": "Morocco" }
+    ],
+    "D": [
+      { "position": 1, "team": "USA" },
+      { "position": 2, "team": "Australia" },
+      { "position": 3, "team": "Paraguay" }
+    ],
+    "E": [
+      { "position": 1, "team": "Germany" },
+      { "position": 2, "team": "Côte d'Ivoire" },
+      { "position": 3, "team": "Ecuador" }
+    ],
+    "F": [
+      { "position": 1, "team": "Netherlands" },
+      { "position": 2, "team": "Japan" },
+      { "position": 3, "team": "Sweden" }
+    ],
+    "G": [
+      { "position": 1, "team": "Belgium" },
+      { "position": 2, "team": "Egypt" }
+    ],
+    "H": [
+      { "position": 1, "team": "Spain" },
+      { "position": 2, "team": "Cabo Verde" }
+    ],
+    "I": [
+      { "position": 1, "team": "France" },
+      { "position": 2, "team": "Norway" },
+      { "position": 3, "team": "Senegal" }
+    ],
+    "J": [
+      { "position": 1, "team": "Argentina" },
+      { "position": 2, "team": "Austria" },
+      { "position": 3, "team": "Algeria" }
+    ],
+    "K": [
+      { "position": 1, "team": "Portugal" },
+      { "position": 2, "team": "Congo DR" },
+      { "position": 3, "team": "Colombia" }
+    ],
+    "L": [
+      { "position": 1, "team": "England" },
+      { "position": 2, "team": "Croatia" },
+      { "position": 3, "team": "Ghana" }
+    ]
+  }
+}
